@@ -1,0 +1,30 @@
+{
+  "name": "absent",
+  "version": "1.0.0",
+  "description": "Absent checks existence of variable, properties or items in a collection.",
+  "main": "absent.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanerdiler/absent.js.git"
+  },
+  "keywords": [
+    "null",
+    "undefined",
+    "empty",
+    "blank"
+  ],
+  "author": "Taner Diler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanerdiler/absent.js/issues"
+  },
+  "homepage": "https://github.com/tanerdiler/absent.js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
