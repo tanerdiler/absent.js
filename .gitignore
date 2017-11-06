@@ -1,4 +1,6 @@
 *-lock.json
+.idea
+*.iml
 
 # Logs
 logs

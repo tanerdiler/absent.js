@@ -1,24 +1,20 @@
 'use strict';
 
-var the = {};
+module.exports = {
+    isSet : function (theThing) {
+        return this.not(
+            this.isNull(theThing));
+    },
 
-the.helper = {};
+    isNull : function (theThing) {
+        return typeof theThing === 'undefined' || theThing === null;
+    },
 
-the.helper.isSet = function (theThing) {
-    return the.helper.not(
-        the.helper.isNull(theThing));
-}
+    isBlank : function (theThing) {
+        return this.isNull(theThing) ||  theThing === '';
+    },
 
-the.helper.isNull = function (theThing) {
-    return typeof theThing === 'undefined' || theThing === null;
-}
-
-the.helper.isBlank = function (theThing) {
-    return the.helper.isNull(theThing) ||  theThing === '';
-}
-
-the.helper.not = function (booleanValue) {
-    return !booleanValue;
-}
-
-module.exports = the.helper;
+    not : function (booleanValue) {
+        return !booleanValue;
+    }
+};
