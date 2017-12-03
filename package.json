@@ -4,8 +4,10 @@
   "description": "Absent checks existence of variable, properties or items in a collection.",
   "main": "absent.js",
   "scripts": {
-    "test": "mocha"
-  },
+	      "test": "mocha --reporter spec",
+	          "cover": "istanbul cover node_modules/mocha/bin/_mocha test.js -- -R spec"
+		    },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tanerdiler/absent.js.git"
@@ -25,6 +27,8 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.4.1",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
     "mocha": "^2.3.4"
   }
 }
