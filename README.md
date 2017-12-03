@@ -1,5 +1,6 @@
 # Absent
 
+[![Build Status](https://travis-ci.org/tanerdiler/absent.js.svg?branch=master)](https://travis-ci.org/tanerdiler/absent.js)
 [![Coverage Status](https://coveralls.io/repos/github/tanerdiler/absent.js/badge.svg)](https://coveralls.io/github/tanerdiler/absent.js)
 
 Absent checks existence or blankness of a variable.                       
