@@ -1,5 +1,7 @@
 # Absent
 
+[![Coverage Status](https://coveralls.io/repos/github/tanerdiler/absent.js/badge.svg)](https://coveralls.io/github/tanerdiler/absent.js)
+
 Absent checks existence or blankness of a variable.                       
  
 ## What is the goal of this project?
